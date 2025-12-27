@@ -6,7 +6,8 @@
         content="A short starter to build website for your paper.">
   <meta name="keywords" content="Paper, website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Paper-oriented Website Building</title>
+  <title>A Distributed Generative AI Approach for Heterogeneous
+Multi-Domain Environments under Data Sharing constraints</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -53,23 +54,24 @@
           <h1 class="title is-1 publication-title">Paper-oriented Website Building</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Dingrui</a><sup>1</sup>,</span>
+              <a href="https://www.linkedin.com/in/youssef-tawfilis-msc-095384197/">Youssef Tawfilis</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Arthor 2</a><sup>2</sup>,</span>
+              <a href="linkedin.com/in/hossam-amer-23b9329b?originalSubdomain=ca">Hossam Amer</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Arthor 3</a><sup>2</sup>,
+              <a href="https://www.linkedin.com/in/minar-el-aasser/?originalSubdomain=eg">Minar El-Aasser</a><sup>1</sup>,
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/tallal-elshabrawy-2081b0139/?originalSubdomain=eg">Tallal Elshabrawy</a><sup>1</sup>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Technical University of Munich,</span>
-            <span class="author-block"><sup>2</sup>MIRMI</span>
+            <span class="author-block"><sup>1</sup>The German University in Cairo</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+                <a href="https://openreview.net/pdf?id=rpbL7pfPYH"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -78,7 +80,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/1706.03762"
+                <a href="https://arxiv.org/abs/2507.12979"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -86,19 +88,10 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://youtu.be/xvFZjo5PgG0?si=GFreULeA1uF8r6fk"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
+              
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/TUM-AVS/paper-website-project"
+                <a href="https://github.com/youssefga28/HuSCF-GAN"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -106,15 +99,6 @@
                   <span>Code</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href="https://github.com/TUM-AVS/paper-website-project"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
             </div>
 
           </div>
@@ -127,7 +111,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-        <img src="./static/images/teaser.jpg"
+        <img src="./static/images/overall (6).png"
                  class="teaser-image"
                 />
         <!-- You can also add a video as a teaser -->
@@ -138,38 +122,11 @@
         </video> 
         -->
       <h2 class="subtitle has-text-centered">
-        An example teaser image with its description.
+        Figure 1: HuSCF-GAN Overview: Clients first send device capabilities to the server, which uses a Genetic Algorithm to assign optimal cut points. Clients then perform U-shaped split learning, exchanging intermediate activations/gradients with the server. Every $E$ epochs, the server clusters discriminator activations and computes intra-cluster KLD scores and perform an intra-cluster federated learning round whose aggregation weights consider both data size and KLD.
       </h2>
     </div>
   </div>
 </section>
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/cat.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        An example video to attract people.
-      </h2>
-    </div>
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/video_B.mp4"
-                type="video/mp4">
-      </video>
-        <!-- Video task
-        Check folder ./static/videos, change video_B to something meaningful there.
-        -->
-      <h2 class="subtitle has-text-centered">
-        A task for you: make this video slot show a dog.
-      </h2>
-    </div>
-  </div>
-</section>
-
 
 
 
@@ -181,81 +138,152 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            You can add the abstract of your paper here!
+            Federated Learning has gained increasing attention for its ability to enable multiple nodes to collaboratively train machine learning models without sharing their raw data. At the same time, Generative AI—particularly Generative Adversarial Networks (GANs)—have achieved remarkable success across a wide range of domains, such as healthcare, security, and Image Generation. However, training generative models typically requires large datasets and significant computational resources, which are often unavailable in real-world settings. Acquiring such resources can be costly and inefficient, especially when many underutilized devices—such as IoT devices and edge devices—with varying capabilities remain idle. Moreover, obtaining large datasets is challenging due to privacy concerns and copyright restrictions, as most devices are unwilling to share their data. To address these challenges, we propose a novel approach for decentralized GAN training that enables the utilization of distributed data and underutilized, low-capability devices while not sharing data in its raw form. Our approach is designed to tackle key challenges in decentralized environments, combining KLD-weighted Clustered Federated Learning to address the issues of data heterogeneity and multi-domain datasets, with Heterogeneous U-Shaped split learning to tackle the challenge of device heterogeneity under strict data sharing constraints—ensuring that no labels or raw data, whether real or synthetic, are ever shared between nodes. Experimental results shows that our approach demonstrates consistent and significant improvements across key performance metrics, where it achieves an average 10% boost in classification metrics (up to 60% in multi-domain non-IID settings), 1.1×—3× higher image generation scores for the MNIST family datasets, and 2×—70× lower FID scores for higher resolution datasets, in much lower latency compared to several benchmarks.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        
-        <h2 class="title is-3">Video</h2>
-        <div class="content has-text-justified">
-          <p>
-            You can add an explanation Youtube video of your paper here!
-          </p>
-        </div>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/r7jcbH5vq-g?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
   </div>
 </section>
 
-<section class="hero is-light">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-          <div class="item item-video0 has-text-centered">
-            <h3 class="title is-3">Try it for yourself</h3>
-            <video poster="" id="video0" autoplay controls muted loop playsinline center width="70%">
-              <!-- Your video file here -->
-              <source src="static/videos/tryout.mp4"
-              type="video/mp4">
-            </video>
-          </div>
-            <p style="text-align: center;">
-              Check the tutorial about how to start to build paper website for yourself:
-              <i class="fab fa-github"><a class="icon-link" href="https://github.com/TUM-AVS/paper-website-project" class="external-link"></a></i>
-              <a href="https://github.com/TUM-AVS/paper-website-project">Tutorial </a>
-            </p>
-            <br>
-              <center>
-                <code class="column is-three-fifths hero is-dark" style="text-align: left;">
-                  git clone https://github.com/TUM-AVS/paper-website-project.git<br>
-                  cd paper-website-project<br>
-                  etc.<br>
-                  <br>
-                  <br>
-                </code>
-                <br>
-                Other <a href="https://github.com/TUM-AVS/paper-website-project">code</a> instructions:
-                <code class="column is-three-fifths hero is-dark" style="text-align: left;">
-                  etc.<br>
-                </code>
-                <br>
-              </center>
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Motivation -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Motivation</h2>
+        <div class="content has-text-justified">
+          <p>
+            Training modern generative AI models typically requires centralized access to large datasets and powerful compute infrastructure,
+            which is often infeasible in real-world environments where data is siloed due to privacy, security, or legal constraints.
+            Meanwhile, vast numbers of edge and IoT devices remain underutilized, each with limited and highly variable computational capabilities.
+            Existing decentralized paradigms—such as federated learning and split learning—address parts of this problem but fail to jointly
+            handle device heterogeneity, non-IID data, multi-domain environments, and strict data-sharing constraints.
+            As illustrated in <b>Figure&nbsp;2</b>, current learning paradigms differ in how they trade off privacy, computation, and communication,
+            while prior distributed GAN approaches address only subsets of these challenges.
+            These limitations motivate a unified framework that enables collaborative generative model training across heterogeneous,
+            privacy-sensitive, and multi-domain environments without sharing raw data or labels.
+          </p>
+        </div>
       </div>
     </div>
-  </section>
+    
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <figure class="image">
+          <img src="./static/images/sl.png" alt="Learning paradigms comparison">
+          <figcaption class="has-text-centered">
+            Figure 2: Comparison of Federated Learning, Split Learning, and U-shaped Split Learning,
+            highlighting privacy and system trade-offs.
+          </figcaption>
+        </figure>
+      </div>
+  </div>
+
+    <!-- Methodology -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Methodology</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose <b>HuSCF-GAN</b>, a distributed generative learning framework that combines heterogeneous U-shaped split learning
+            with clustered federated learning.
+            As shown in <b>Figure&nbsp;3</b>, each client’s generator and discriminator are split between the client and a shared server,
+            enabling devices with different computational and communication capabilities to participate efficiently while keeping raw data
+            and labels local.
+            The server first determines optimal, client-specific split points using a genetic algorithm to minimize overall training latency.
+            Training then proceeds via heterogeneous U-shaped split learning, illustrated in <b>Figure&nbsp;4</b>, where only intermediate
+            activations and gradients are exchanged.
+            Periodically, the server clusters clients based on discriminator activations and performs clustered federated aggregation,
+            weighting updates using both dataset size and divergence scores.
+            Together, these components allow HuSCF-GAN to robustly handle device heterogeneity, non-IID data, and multi-domain settings
+            under strict data-sharing constraints.
+          </p>
+        </div>
+      </div>
+    </div>
+
+<div class="columns is-centered">
+  <div class="column is-four-fifths">
+    <figure class="image">
+      <img src="./static/images/workflow.pdf" alt="HuSCF-GAN workflow">
+      <figcaption class="has-text-centered">
+        Figure 3: HuSCF-GAN training pipeline is composed of optimal split selection, heterogeneous U-shaped split learning,
+        activation-based clustering, and clustered federated aggregation.
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<br>
+
+<div class="columns is-centered">
+  <div class="column is-four-fifths">
+    <figure class="image">
+      <img src="./static/images/hetsplit.png" alt="Heterogeneous U-shaped split learning">
+      <figcaption class="has-text-centered">
+        Figure 4: Heterogeneous U-shaped split learning where different clients use different cut points,
+        while raw data and labels remain local.
+      </figcaption>
+    </figure>
+  </div>
+</div>
 
 
+    <!-- Evaluation -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Evaluation</h2>
+        <div class="content has-text-justified">
+          <p>
+            HuSCF-GAN is evaluated across a wide range of realistic scenarios, including IID and non-IID data distributions,
+        single-domain and multi-domain environments, and highly heterogeneous edge-device configurations.
+        The diversity of datasets used in the evaluation is illustrated in <b>Figure&nbsp;5</b>, spanning handwritten digits,
+        fashion images, medical imaging, natural images, and audio data.
+        Across all settings, HuSCF-GAN consistently outperforms state-of-the-art distributed GAN baselines.
+        It achieves an average <b>~10% improvement in downstream classification performance</b>, with gains reaching
+        <b>up to 50–60%</b> in challenging multi-domain non-IID scenarios.
+        In terms of generative quality, HuSCF-GAN delivers <b>1.1×–3× higher image generation scores</b> on MNIST-family datasets
+        and <b>2×–70× lower FID scores</b> on higher-resolution datasets.
+        Crucially, HuSCF-GAN also improves efficiency, achieving <b>significantly lower training latency</b> than competing
+        distributed GAN frameworks—reducing per-iteration latency by at least <b>5×</b> and up to <b>58×</b> in heterogeneous and multi-domain
+        settings—while maintaining stable convergence.
+        These results demonstrate that HuSCF-GAN delivers both <b>performance gains and practical scalability</b> without
+        sacrificing efficiency.
+          </p>
+        </div>
+      </div>
+    </div>
 
+<div class="columns is-centered">
+  <div class="column is-four-fifths">
+    <figure class="image">
+      <img src="./static/images/Screenshot 2025-12-27 135944.png" alt="Evaluation datasets">
+      <figcaption class="has-text-centered">
+        Figure 5: Datasets used for evaluation across image,higher resolution images, medical imaging, and audio domains.
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+  </div>
+</section>
 
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{your2024paper,
-  author    = {A, B and C, D and E, F},
-  title     = {Create websites for academic papers},
-  journal   = {A Website Conference},
-  year      = {2024},
+    <pre><code>@misc{tawfilis2025distributedgenerativeaiapproach,
+      title={A Distributed Generative AI Approach for Heterogeneous Multi-Domain Environments under Data Sharing constraints}, 
+      author={Youssef Tawfilis and Hossam Amer and Minar El-Aasser and Tallal Elshabrawy},
+      year={2025},
+      eprint={2507.12979},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2507.12979}, 
 }</code></pre>
   </div>
 </section>
@@ -263,18 +291,6 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link" href="https://diamond-wm.github.io">
-          <i class="fas fa-home"></i>
-      </a>
-      <a class="icon-link"
-         href="https://arxiv.org/pdf/2405.12399">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/eloialonso/diamond" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
